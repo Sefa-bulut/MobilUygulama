@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Haydi Sahaya</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps33">Map</string>
+    <string name="title_activity_test_maps">Map</string>
+    <string name="title_activity_maps_maps">Map</string>
+</resources>

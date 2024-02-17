@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PopUpInfoActivity"
+    android:gravity="center"
+    android:background="#29db2f"
+    android:padding="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <RatingBar
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rating_bar_pop_up_info"
+                    android:numStars="5"
+                    android:stepSize="1"
+                    android:progressTint="#29db2f"
+                    android:progressBackgroundTint="#e9e9e9" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtViewUserNameInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_account"
+                android:background="@drawable/style_text_view"
+                android:drawablePadding="5dp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                />
+
+            <TextView
+                android:id="@+id/txtViewDateInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_date_range"
+                android:background="@drawable/style_text_view"
+                android:drawablePadding="5dp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                />
+
+            <TextView
+                android:id="@+id/txtViewPositionInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_soccer_ball"
+                android:background="@drawable/style_text_view"
+                android:drawablePadding="5dp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                />
+
+            <TextView
+                android:id="@+id/txtViewUserPhoneInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_phone"
+                android:background="@drawable/style_text_view"
+                android:drawablePadding="5dp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                />
+
+            <Button
+                android:id="@+id/message_btn_pop_up_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="Mesaj"
+                android:textColor="@color/white"
+                android:backgroundTint="#29db2f"
+                />
+
+            <Button
+                android:id="@+id/call_btn_pop_up_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="Telefon"
+                android:textColor="@color/white"
+                android:backgroundTint="#29db2f"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
