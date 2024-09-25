@@ -1,6 +1,5 @@
 Haydi Sahaya adlı bir mobil uygulamadır. Şuan aktif olarak google play store'dan indirilebilir.
 https://play.google.com/store/apps/details?id=com.sefaozgur.haydisahayaap&hl=en
-
 ![image alt](https://github.com/Sefa-bulut/MobilUygulama/blob/10d546dfaa8110f43cf839d1fa735baa915b3978/playstore.png)
 # Uygulama Hakkında ekran görüntüleri
 ![image alt](https://github.com/Sefa-bulut/MobilUygulama/blob/470a43de58d44b8d1de970048437224fd8a23a36/kay%C4%B1tekran%C4%B1.png)
